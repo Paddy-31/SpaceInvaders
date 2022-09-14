@@ -2,6 +2,7 @@ import pygame
 # initialization
 pygame.init()
 
+# Screen Size
 screen = pygame.display.set_mode((800,600))
 
 pygame.display.set_caption("Space Invaders")
