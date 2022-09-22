@@ -1,4 +1,5 @@
 import pygame
+import random
 # initialization
 pygame.init()
 
@@ -15,8 +16,8 @@ playerY = 480
 playerX_change = 0
 
 enemyImg = pygame.image.load('alien.png')
-enemyX = 370
-enemyY = 480
+enemyX = random.randint(0,800)
+enemyY = random.randint(50,)
 enemyX_change = 0
 
 
@@ -58,6 +59,6 @@ while running:
             playerX = 736
         
         player(playerX,playerY)
-        player(enemyX,enemyY)
+        enemy(enemyX,enemyY)
         pygame.display.update()
             
