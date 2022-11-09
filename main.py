@@ -170,7 +170,7 @@ while running:
         enemy(enemyX[i], enemyY[i], i)
 
     # Bullet Movement
-    if bulletY <= 0:
+    if bulletY <= 0:s
         bulletY = 480
         bullet_state = "ready"
 
